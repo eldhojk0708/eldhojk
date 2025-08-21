@@ -1,0 +1,46 @@
+body {
+    background: linear-gradient(to right, #0078D7, #00B294);
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+img {
+    max-width: 250px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    position: fixed;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.microsoft-link span {
+    color: transparent;
+    transition: color 0.3s ease-in-out;
+}
+
+.microsoft-link:hover span {
+    color: white;
+}
